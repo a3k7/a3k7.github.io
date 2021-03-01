@@ -1,0 +1,242 @@
+@charset "utf-8";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	text-align: center;
+	color: #666;
+	font-size: 14px;
+	line-height: 180%;
+	font-family: Tahoma, "Microsoft Yahei", "宋体";
+}
+img {
+	border: 0;
+}
+ul, dl {
+	list-style: none;
+}
+ol li {
+	list-style: inside decimal;
+}
+a:link, a:visited {
+	text-decoration: none;
+	color: #39C;
+}
+a:hover {
+	color: #000;
+}
+.wrapper {
+	width: 960px;
+	text-align: left;
+	clear: both;
+	margin: 0 auto;
+}
+.clear {
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+.title16 {
+	font-family: Tahoma, "Microsoft Yahei", "宋体";
+	font-size: 16px;
+	color: #111;
+}
+.title10 {
+	font-family: Tahoma, "Microsoft Yahei", "宋体";
+	color: #39C;
+	font-size: 10px;
+}
+.dl-list {
+	padding-bottom: 20px;
+}
+.dl-list dt {
+	font-family: Tahoma, "Microsoft Yahei", "宋体";
+	font-size: 14px;
+	font-weight: bold;
+	color: #111;
+	padding-bottom: 5px;
+}
+.note {
+	padding-bottom: 20px;
+}
+
+.mainNav {
+	float: right;
+	height: 60px;
+}
+.mainNav li {
+	float: left;
+	padding: 10px 20px;
+	line-height: 32px;
+	height: 32px;
+	font-size: 16px;
+	font-family: Tahoma, "Microsoft Yahei", "宋体";
+}
+.mainNav li a:link, .mainNav li a:visited {
+	color: #000;
+}
+.mainNav li a:hover {
+	color: #fff;
+}
+.mainNav li b {
+	float: left;
+	width: 32px;
+	height: 32px;
+}
+.mainNav .nav-home b {
+	margin-right: 5px;
+	background: url("http://www.wuji.com/Res/img/icon-home.png");
+	_background: none;
+ _FILTER:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Res/img/icon-home.png');
+}
+.mainNav .nav-update b {
+	background: url("http://www.fenggeliaotianshi.com/index_files/icon-upd.png");
+	_background: none;
+ _FILTER:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Res/img/icon-update.png');
+}
+.mainNav .nav-help b {
+	background: url("http://www.fenggeliaotianshi.com/index_files/icon-hel.png");
+	_background: none;
+ _FILTER:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Res/img/icon-help.png');
+}
+.mainNav li.cur {
+	background: #ff9900;
+}
+.mainNav li.cur a:link, .mainNav li.cur a:visited {
+	color: #fff;
+}
+.mainNav li.cur .nav-home b {
+	margin-right: 5px;
+	background: url("http://www.fenggeliaotianshi.com/index_files/icon-hom.png");
+	_background: none;
+ _FILTER:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Res/img/icon-home.png');
+}
+.mainNav li.cur .nav-update b {
+	background: url("http://www.wuji.com/Res/img/icon-update-h.png");
+	_background: none;
+ _FILTER:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Res/img/icon-update.png');
+}
+.mainNav li.cur .nav-help b {
+	background: url("http://www.wuji.com/Res/img/icon-help-h.png");
+	_background: none;
+ _FILTER:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Res/img/icon-help.png');
+}
+
+.logo {
+	display: inline-block;
+	width: 192px;
+	height: 55px;
+	overflow: hidden;
+	position: relative;
+	top: 5px;
+}
+.logo img {
+	_padding-top: 55px;
+}
+.logo {
+ _FILTER:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Res/img/logo.png');
+}
+.banner-home {
+	position: relative;
+	padding-top: 20px;
+	height: 350px;
+}
+.banner-home .ui {
+	float: left;
+	padding: 20px 50px 20px 10px;
+}
+.banner-home ul {
+	padding-top: 20px;
+}
+.banner-home ul li {
+	padding-bottom: 30px;
+}
+.ekan {
+	width: 399px;
+	height: 78px;
+	overflow: hidden;
+ _FILTER:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Res/img/ekan.png');
+}
+.ekan img {
+	_padding-top: 78px;
+}
+.download {
+	width: 219px;
+	height: 52px;
+	overflow: hidden;
+	text-indent: -999px;
+	display: block;
+	background-image: url(download.png);
+}
+.download:hover {
+	background-image: url(download.png);
+}
+
+.col-main {
+	border: 1px solid #ccc;
+	float: left;
+	width: 640px;
+	margin-right: 30px;
+	display: inline;
+}
+.col-main .des {
+	padding: 20px;
+	border-bottom: 1px solid #ccc;
+}
+.col-main .feature {
+	padding: 20px;
+}
+.col-main .feature dl {
+	width: 280px;
+	float: left;
+	padding-bottom: 15px;
+	position: relative;
+}
+.col-main .feature dl.l {
+	padding-right: 15px;
+}
+.col-main .feature dl .img {
+	position: absolute;
+	padding-left: 0;
+	left: 0;
+	top: 0;
+}
+.col-main .feature dl dd, .col-main .feature dl dt {
+	padding-left: 80px;
+}
+
+.col-side {
+	width: 280px;
+	float: left;
+}
+
+.footer {
+	background: #f8f8f8;
+	padding: 20px 0 0;
+	border-top: 1px solid #ccc;
+	margin-top: 30px;
+}
+.footer .wrapper {
+	background: url("http://www.fenggeliaotianshi.com/index_files/icons700.gif") 660px 100% no-repeat;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#update .content, #help .content {
+	padding-top: 60px;
+}
+
+
+#home {
+	background-image: url(111.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#update{
+	background: url("http://www.wuji.com/Res/img/bg3.jpg") center top no-repeat;
+}
+#help {
+	background: url("http://www.wuji.com/Res/img/bg33.jpg") center top no-repeat;
+}
