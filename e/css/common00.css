@@ -1,0 +1,15 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{padding:0;}
+body {
+	font-family:Microsoft YaHei,SimSun;
+	color:#212121;
+	text-align:center;
+*text-align:left;			padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	background-color: #f8fafe;  margin:0;
+}
+a{text-decoration:none;}
+ul,li{ margin:0px; padding:0px;}
+img{ border:0px; margin:0px; padding:0px;}
+li{list-style:none; display:inline;}
